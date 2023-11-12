@@ -1,0 +1,225 @@
+:root {
+  --primary: #b6895b;
+  --bg: #010101;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hp {
+  text-align: center;
+  color: rgb(46, 233, 130);
+  font-weight: 500;
+}
+
+/* Table start */
+
+span{
+  color: var(--primary);
+}
+
+table button {
+  background-color: aqua;
+  border-radius: 15%;
+}
+
+table button:hover {
+  background-color: #00ff40;
+  border-radius: 30%;
+}
+
+table .psn {
+  text-decoration: none;
+}
+
+table .psn:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+table td a {
+  background-color: #00ff40;
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+table td a:hover {
+  background-color: white;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 900;
+  text-decoration: underline;
+}
+table td {
+  font-weight: 554;
+}
+/* Table end */
+
+/* Paket start */
+
+.tp {
+  margin-left: 15px;
+}
+/* Paket end */
+
+/* Footer */
+footer {
+  background-color: var(--primary);
+  text-align: center;
+  padding: 1rem 0 3rem;
+  margin-top: 3rem;
+}
+
+footer .socials {
+  padding: 1rem 0;
+}
+
+footer .socials a {
+  color: #fff;
+  margin: 1rem;
+  font-size: 1.7rem;
+}
+
+footer .socials a:hover,
+footer .links a:hover {
+  color: var(--bg);
+}
+
+footer .links {
+  margin-bottom: 1.4rem;
+  font-size: 1rem;
+}
+
+footer .links a {
+  color: #fff;
+  padding: 0.7rem 1rem;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+}
+
+footer .credit p {
+  font-size: 1.3rem;
+}
+
+footer .credit a {
+  color: var(--bg);
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --primary: #b6895b;
+    --bg: #010101;
+  }
+
+  * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .hp {
+    text-align: center;
+    color: rgb(46, 233, 130);
+    font-weight: 500;
+  }
+
+  /* Table start */
+
+ span{
+  color: var(--primary);
+ }
+
+  table button {
+    background-color: aqua;
+    border-radius: 15%;
+  }
+
+  table button:hover {
+    background-color: #00ff40;
+    border-radius: 30%;
+  }
+
+  table .psn {
+    text-decoration: none;
+  }
+
+  table .psn:hover {
+    color: black;
+    text-decoration: underline;
+  }
+
+  table td a {
+    background-color: #00ff40;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: 800;
+  }
+
+  table td a:hover {
+    background-color: white;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 900;
+    text-decoration: underline;
+  }
+  table td {
+    font-weight: 554;
+  }
+  /* Table end */
+
+  /* Paket start */
+
+  .tp {
+    margin-left: 15px;
+  }
+  /* Paket end */
+
+  /* Footer */
+  footer {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 1rem 0 3rem;
+    margin-top: 3rem;
+  }
+
+  footer .socials {
+    padding: 1rem 0;
+  }
+
+  footer .socials a {
+    color: #fff;
+    margin: 1rem;
+    font-size: 1.7rem;
+  }
+
+  footer .socials a:hover,
+  footer .links a:hover {
+    color: var(--bg);
+  }
+
+  footer .links {
+    margin-bottom: 1.4rem;
+    font-size: 1rem;
+  }
+
+  footer .links a {
+    color: #fff;
+    padding: 0.7rem 1rem;
+  }
+
+  footer .credit {
+    font-size: 0.8rem;
+  }
+
+  footer .credit p {
+    font-size: 1.3rem;
+  }
+
+  footer .credit a {
+    color: var(--bg);
+    font-weight: 700;
+  }
+}
