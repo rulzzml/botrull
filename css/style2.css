@@ -15,54 +15,69 @@
 
 /* Table start */
 
-span{
-  color: var(--primary);
+table {
+  border-collapse: collapse;
+  margin-bottom: 40px;
+  width: 100%;
+  flex-direction: column;
 }
 
-table button {
-  background-color: aqua;
-  border-radius: 15%;
+table,
+th,
+td {
+  border: 1.9px solid black;
+  flex-direction: column;
 }
 
-table button:hover {
-  background-color: #00ff40;
-  border-radius: 30%;
+th,
+td {
+  padding: 4.9px;
+  flex-direction: column;
 }
 
-table .psn {
-  text-decoration: none;
+th {
+  background-color: rgb(19, 110, 179);
+  color: white;
+  flex-direction: column;
 }
 
-table .psn:hover {
-  color: black;
-  text-decoration: underline;
+tr:hover {
+  background-color: #8c8a8a;
 }
 
-table td a {
-  background-color: #00ff40;
-  color: rgb(255, 0, 0);
-  text-decoration: none;
-  font-weight: 800;
-}
-
-table td a:hover {
-  background-color: white;
-  color: #000000;
-  text-decoration: none;
-  font-weight: 900;
-  text-decoration: underline;
-}
-table td {
-  font-weight: 554;
-}
-/* Table end */
-
-/* Paket start */
-
-.tp {
-  margin-left: 15px;
+table button .psn {
+  padding: 5px 12px;
+  width: 15px;
+  border-radius: 10px;
+  background-color: rgb(18, 127, 226);
+  margin-top: 10px;
 }
 /* Paket end */
+
+/* efek loading */
+.bg-loader {
+  background-color: #eee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-loader .loader {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  border-top-color: #2485b6;
+  border-right-color: #2485b6;
+  border-bottom-color: #2485b6;
+  animation: puterin .8s linear infinite;
+}
 
 /* Footer */
 footer {
