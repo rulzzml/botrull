@@ -283,11 +283,12 @@ body {
 
 .about .row .about-img {
   flex: 1 1 45rem;
+  margin-left: 15%;
 }
 
 .about .row .about-img img {
   width: 64%;
-  margin-left: 50px;
+  margin-left: 11%;
 }
 
 .about .row .content {
