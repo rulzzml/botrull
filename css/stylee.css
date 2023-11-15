@@ -212,7 +212,7 @@ form .btn .btn-layer {
   color: #000;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (min-width: 350px){
   .field-btn button a {
     text-align: center;
     text-decoration: none;
@@ -221,5 +221,12 @@ form .btn .btn-layer {
     background-color: #1a75ff;
     color: #000;
   }
-  
+  .field-btn button a {
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+    margin-top: 10px;
+    background-color: #1a75ff;
+    color: #000;
+  }
 }
