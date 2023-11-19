@@ -591,6 +591,25 @@ footer .credit a {
   padding: 1rem 1.6rem;
 }
 
+/* Poster */
+.poster{
+  margin-bottom: 1%;
+  padding: 100px 100px;
+  margin-left: 20px;
+}
+
+.poster span{
+  color: var(--primary);
+}
+
+.poster a{
+  color: aqua;
+}
+
+.poster a:hover{
+  color: #666;
+}
+
 /* Media Queries */
 /* Laptop */
 @media (max-width: 1366px) {
@@ -689,6 +708,13 @@ footer .credit a {
   .menu .row .menu-card img {
     border-radius: 50%;
     width: 80%;
+  }
+  .poster .poster-img img{
+    width: 450px;
+    margin-left: -100px;
+  }
+  .poster{
+    font-size: 1rem;
   }
 }
 
