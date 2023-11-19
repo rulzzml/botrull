@@ -710,11 +710,14 @@ footer .credit a {
     width: 80%;
   }
   .poster .poster-img img{
-    width: 450px;
-    margin-left: -100px;
+    width: 100px;
+    margin-left: -90px;
   }
   .poster{
     font-size: 1rem;
+  }
+  #shopping-cart-button{
+    display: none;
   }
 }
 
