@@ -83,7 +83,6 @@ body {
 @keyframes progress-vertikal{
   0%{
     height: 10px;
-    width: 100%;
     transform: scaleY(0);
   }
   100%{
