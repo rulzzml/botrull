@@ -75,6 +75,7 @@ body {
 .navbar .navbar-extra a {
   color: #fff;
   margin: 0 0.5rem;
+  font-size: 1.8rem;
 }
 
 .navbar .navbar-extra a:hover {
@@ -264,7 +265,8 @@ body {
 .about h2,
 .menu h2,
 .products h2,
-.contact h2 {
+.contact h2,
+.poster h2{
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 3rem;
@@ -339,6 +341,14 @@ body {
 .menu .row .menu-card {
   text-align: center;
   padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.menu .row .menu-card a{
+  display: flex;
+  margin-right: 1.5rem;
+  color: var(--primary);
+  font-weight: 490;
 }
 
 .menu .row .menu-card img {
@@ -491,7 +501,8 @@ footer .socials {
 footer .socials a {
   color: #fff;
   margin: 1rem;
-  font-size: 1.7rem;
+  /* font-size: 1.7rem; */
+  font-size: 1.8rem;
 }
 
 footer .socials a:hover,
@@ -591,6 +602,10 @@ footer .credit a {
   padding: 1rem 1.6rem;
 }
 
+  #shopping-cart-button{
+    display: inline-block;
+  }
+
 /* Poster */
 .poster{
   margin-bottom: 1%;
@@ -609,7 +624,6 @@ footer .credit a {
 .poster a:hover{
   color: #666;
 }
-
 /* Media Queries */
 /* Laptop */
 @media (max-width: 1366px) {
@@ -621,7 +635,14 @@ footer .credit a {
 /* Tablet */
 @media (max-width: 758px) {
   html {
-    font-size: 62.5%;
+    font-size: 67.8%;
+  }
+
+  .about,
+  .menu,
+  .contact,
+  .poster{
+    font-size: 1.6rem;
   }
 
   #hamburger-menu {
@@ -710,8 +731,8 @@ footer .credit a {
     width: 80%;
   }
   .poster .poster-img img{
-    width: 90px;
-    margin-left: -90px;
+    width: 500px;
+    margin-left: -50px;
   }
   .poster{
     font-size: 1rem;
