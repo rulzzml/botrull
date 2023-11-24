@@ -756,6 +756,13 @@ footer .credit a {
 .poster a:hover{
   color: #666;
 }
+
+.content h4{
+  font-size: 2vh;
+}
+
+
+
 /* Media Queries */
 /* Laptop */
 @media (max-width: 1366px) {
@@ -863,7 +870,7 @@ footer .credit a {
     width: 80%;
   }
   .poster .poster-img img{
-    width: 500px;
+    width: 350px;
     margin-left: -50px;
   }
   .poster{
@@ -880,3 +887,5 @@ footer .credit a {
     font-size: 55%;
   }
 }
+
+  
