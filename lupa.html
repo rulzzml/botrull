@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lupa Password</title>
-    <link rel="stylesheet" href="./css/stylee.css">
-</head>
-<body>
-    <div class="form-inner">
-        <form action="lupa.html" class="login">
-            <h2>Link perubahan password akan dikirmkan melalui format dibawah:</h2>
-          <pre>
-          </pre>
-          <div class="field">
-            <input type="text" placeholder="Masukan Email " required>
-          </div>
-          <div class="field">
-            <input type="password" placeholder="Masukan Nomor Whatsapp" required>
-          </div>
-          <div class="field-btn">
-            <div class="btn-layer"></div>
-            <button><a href="kirim.html">Verifikasi</a></button>
-          </div>
-          <script src="./js/script2.js"></script>
-</body>
+    <title>Password geneator</title>
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"/>
+  </head>
+  <body>
+    <div class="container d-flex justify-content-center align-items-center
+      min-vh-100">
+      <div class="d-flex flex-column">
+        <h1>Buat Password anda</h1>
+        <div class="d-flex flex-column gap-2 mt-2">
+          <label for="passwordLength" class="text-uppercase fw-bold">Panjang
+            Password</label>
+          <input class="form-control form-control-lg" id="passwordLength"
+            type="number"/>
+          <label for="password" class="text-uppercase fw-bold">Password</label>
+          <input class="form-control form-control-lg" id="password"
+            disabled/>
+          <button class="btn btn-dark text-uppercase fw-bold btn-lg mt-2"
+            onclick="getPassword()">generate
+            password</button>
+          <a class="btn btn-primary text-uppercase fw-bold btn-lg mt-2"
+            onclick="savePassword()" id="saveButton">SAVE
+            PASSWORD</a>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script3.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
