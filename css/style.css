@@ -36,8 +36,8 @@ body {
   height: 5px;
   position: fixed;
   top: 0;
-  left: 0;
-  animation: progress-vertikal, progress-color;
+  right: 0;
+  animation: progress-horizontal, progress-color;
   animation-timeline: scroll();
   transform-origin: 0%;
 }
@@ -46,8 +46,8 @@ body {
   height: 5px;
   position: fixed;
   bottom: 0;
-  left: 0;
-  animation: progress-vertikal, progress-color;
+  right: 0;
+  animation: progress-horizontal, progress-color;
   animation-timeline: scroll();
   transform-origin: 100%;
 }
@@ -65,11 +65,11 @@ body {
   width: 5px;
   height: 100%;
   position: fixed;
-  bottom: 0;
-  right: 0;
+  right:  0;
+  top: 0;
   animation: progress-vertikal, progress-color;
   animation-timeline: scroll();
-  transform-origin: 0 0%;
+  transform-origin: 100% 0;
 }
 
 @keyframes progress-horizontal{
@@ -82,7 +82,6 @@ body {
 }
 @keyframes progress-vertikal{
   0%{
-    height: 10px;
     transform: scaleY(0);
   }
   100%{
@@ -887,5 +886,3 @@ footer .credit a {
     font-size: 55%;
   }
 }
-
-  
