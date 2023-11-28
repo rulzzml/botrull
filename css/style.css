@@ -868,18 +868,13 @@ footer .credit a {
     border-radius: 50%;
     width: 80%;
   }
-  .poster .poster-img img{
-    width: 350px;
-    margin-left: -50px;
-  }
-  .poster{
-    font-size: 35px;
+  .poster {
+    display: none;
   }
   #shopping-cart-button{
     display: none;
   }
-  .poster .contact, .content p, h4{
-    width: 50%;
+  .tutup .contact p{
     font-size: 25px;
   }
 }
