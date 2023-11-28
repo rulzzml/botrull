@@ -389,7 +389,8 @@ body {
 .about,
 .menu,
 .products,
-.contact {
+.contact,
+.tutup{
   padding: 8rem 7% 1.4rem;
 }
 
@@ -397,7 +398,7 @@ body {
 .menu h2,
 .products h2,
 .contact h2,
-.poster h2{
+.tutup h2{
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 3rem;
@@ -406,7 +407,8 @@ body {
 .about h2 span,
 .menu h2 span,
 .products h2 span,
-.contact h2 span {
+.contact h2 span,
+.tutup h2 span{
   color: var(--primary);
 }
 
@@ -868,7 +870,7 @@ footer .credit a {
     border-radius: 50%;
     width: 80%;
   }
-  .poster .row .poster-img .content h4{
+  .poster{
     display: none;
   }
   #shopping-cart-button{
