@@ -878,6 +878,10 @@ footer .credit a {
   #shopping-cart-button{
     display: none;
   }
+  .poster .contact, .content p, h4{
+    width: 50%;
+    font-size: 25px;
+  }
 }
 
 /* Mobile Phone */
